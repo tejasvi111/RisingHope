@@ -1,0 +1,138 @@
+/*Common page CSS start from here...*/
+*
+{
+	margin:0px;
+}
+#outer
+{
+height:auto;
+width:1200px;
+margin:0px auto;
+}
+#header
+{
+	height:150px;
+	width:auto;
+	font-family:gungsuh;
+}
+
+
+#content{
+	height:auto;
+	width:auto;
+}
+#menu1{
+	height:35px;
+	width:auto;
+	background:#fff;
+	margin-bottom:10px;
+	border-bottom:4px solid #009688;
+}
+.menuclass
+{
+	height:30px;
+	width:150px;
+	float:left;
+	font-size:20px;
+	text-decoration:none;
+	float:right;
+	text-align:center;
+	padding-top:5px;
+	color:#000000;
+}
+.menuclass:hover
+{
+	background:#009688;
+	border-radius:10px 10px 0px 0px;
+	color:#fff;
+	text-decoration:none;
+}
+#footer
+{
+	height:50px;
+	width:auto;
+	background:#222;
+	font-size:18px;
+	font-family:calibri;
+	color:#fff;
+}
+#footer a{
+	text-decoration:none;
+	color:#009688;
+}
+#left
+{
+	height:30px;
+	width:595px;
+	float:left;
+	padding-top:20px;
+	padding-left:5px;
+}
+#right
+{
+	height:30px;
+	width:580px;
+	float:right;
+	padding-top:20px;
+	text-align:right;
+	padding-right:20px;
+}
+/*Common page CSS ends here...*/
+#regform
+{
+	height:700px;
+	width:900px;
+	margin:0px auto;
+	
+}
+#regtbl
+{
+	width:900px;
+	margin:0px auto;
+	padding:20px;
+	font-size:20px;
+	color:#444;
+}
+td
+{
+	height:50px;
+	width:200px;
+}
+.ddl
+{
+	height:35px;
+	width:250px;
+	font-size:16px;
+	border-radius:2px;
+	border:1px solid #ccc;
+	}
+.ddl:hover{
+	border:3px solid #009688;
+}
+.txtbox
+{
+	height:36px;
+	width:251px;
+	padding-left:5px;
+	border-radius:2px;
+	border:1px solid #ccc;
+}
+.btn
+{
+	height:36px;
+	width:150px;
+	background:#009688;
+	color:#fff;
+	border:none;
+	margin:0px 10px 0px 10px;
+	font-size:16px;
+}
+input[type=text]:focus {
+    border: 3px solid #009688;
+}input[type=number]:focus {
+    border: 3px solid #009688;
+}input[type=email]:focus {
+    border: 3px solid #009688;
+}input[type=password]:focus {
+    border: 3px solid #009688;
+}
